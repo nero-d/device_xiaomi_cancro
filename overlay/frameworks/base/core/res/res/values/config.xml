@@ -47,9 +47,9 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>4</item>
-        <item>40</item>
+        <item>10</item>
+        <item>64</item>
+        <item>140</item>
         <item>350</item>
         <item>600</item>
         <item>1000</item>
@@ -305,8 +305,6 @@
     <integer name="config_screenBrightnessDoze">10</integer>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
-    <!-- Doze: force using accelerometer as pick up sensor -->
-    <bool name="config_dozeUseAccelerometer">true</bool>
 
     <!-- Control the behavior when the user short presses the power button.
             0 - Nothing
@@ -314,7 +312,7 @@
             2 - Really go to sleep (don't doze)
             3 - Really go to sleep and go home (don't doze)
     -->
-    <integer name="config_shortPressOnPowerBehavior">3</integer>
+    <integer name="config_shortPressOnPowerBehavior">1</integer>
 
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
