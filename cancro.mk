@@ -18,6 +18,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/chargeonlymode:root/sbin/chargeonlymode
 
+# Quick charging
+PRODUCT_PROPERTY_OVERRIDES += \
+	    persist.usb.hvdcp.detect=true
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
