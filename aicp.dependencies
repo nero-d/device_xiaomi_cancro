@@ -1,3 +1,12 @@
 [
-
+    {
+        "repository": "AICP/kernel_xiaomi_cancro",
+        "target_path": "kernel/xiaomi/cancro",
+        "branch": "lp5.1"
+    },
+    {
+        "repository": "AICP/proprietary_vendor_xiaomi",
+        "target_path": "vendor/xiaomi",
+        "branch": "lp5.1"
+    }
 ]
