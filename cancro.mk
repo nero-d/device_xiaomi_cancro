@@ -269,7 +269,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Doze Mode
 PRODUCT_PACKAGES += \
-    CancroDoze
+    HammerheadDoze
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
