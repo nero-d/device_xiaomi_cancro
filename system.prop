@@ -37,3 +37,11 @@ media.stagefright.enable-scan=true
 mmp.enable.3g2=true
 mm.enable.smoothstreaming=true
 mm.enable.qcom_parser=37491
+
+# Hardware info
+ro.device.chipset=Qualcomm Snapdragon 800 MSM8274AB
+ro.device.cpu=2.3 GHz quad-core Krait
+ro.device.gpu=Qualcomm Adreno 330
+ro.device.rear_cam=13 MP
+ro.device.front_cam=2 MP
+ro.device.screen_res=1920 x 1080 IPS LCD
