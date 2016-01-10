@@ -45,3 +45,5 @@ ro.device.gpu=Qualcomm Adreno 330
 ro.device.rear_cam=13 MP
 ro.device.front_cam=2 MP
 ro.device.screen_res=1920 x 1080 IPS LCD
+
+persist.camera.cpp.duplication=false
